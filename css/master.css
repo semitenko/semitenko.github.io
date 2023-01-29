@@ -3,8 +3,30 @@
 }
 
 body {
+    background-image: url('../images/dot-grid.webp');
     margin: 0;
     padding: 0;
     overflow-x: hidden;
     font: 12pt 'Lora', Times;
+    color: rgb(64, 64, 64); 
+}
+
+a {
+    color: #c25e21;
+    text-decoration: none;
+    border-bottom: 2px solid #FFD19A;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #c25e21;
+    border-bottom: 2px solid #ffd29a00;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+    color: #232323;
 }

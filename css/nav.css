@@ -1,0 +1,24 @@
+nav {
+    background-color: #B0DEFF;
+    width: 100vw;
+    padding: 25px 50px 20px 50px;
+    color: #232323;
+    position: fixed;
+}
+
+#name {
+    text-transform: uppercase;
+    font-size: 15pt;
+    font-weight: 700;
+    float: left;
+}
+
+nav ul {
+    float: right;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+    margin: 0px 10px;
+}
