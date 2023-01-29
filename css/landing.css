@@ -52,7 +52,7 @@
 .fa:hover {
     background-color: #ffa065;
     transform: translate(-2pt, -2pt);
-    box-shadow: 1.5px 1.5px #888888;
+    box-shadow: 2pt 2pt #88888882;
 }
 
 .nav {
@@ -85,7 +85,7 @@
 .nav li:hover {
     background-color: #ffa065;
     transform: translate(-2pt, -2pt);
-    box-shadow: 1px 1.5px #888888;
+    box-shadow: 2pt 2pt #88888882;
 }
 
 .nav a {
@@ -100,16 +100,4 @@
     text-align: justify;
     float: right;
     position: relative;
-}
-
-.blue {
-    background-color: #B0DEFF;
-}
-
-.orange {
-    background-color: #FFD19A;
-}
-
-.yellow {
-    background-color: #FFF8A6;
 }

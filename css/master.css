@@ -15,6 +15,7 @@ a {
     color: #c25e21;
     text-decoration: none;
     border-bottom: 2px solid #FFD19A;
+
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -ms-transition: all 0.2s ease-in-out;
@@ -29,4 +30,16 @@ a:hover {
 h1, h2, h3, h4, h5 {
     font-weight: 700;
     color: #232323;
+}
+
+.blue {
+    background-color: #B0DEFF;
+}
+
+.orange {
+    background-color: #FFD19A;
+}
+
+.yellow {
+    background-color: #FFF8A6;
 }
