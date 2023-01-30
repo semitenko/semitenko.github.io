@@ -1,0 +1,75 @@
+.dodont {
+    background-color: #f0f2f1;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.gummy-line-small {
+    background-color: #FFD19A;
+    margin: 25px 0px;
+    width: 6vw;
+    height: 3px;
+    border-radius: 3px;
+    opacity: 1;
+}
+
+.price {
+    padding-left: 50px;
+    color: rgb(120, 120, 120); 
+}
+
+.examples {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.examples img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.toggle {
+    background: #FFF8A6;
+    margin-bottom: 10px;
+    padding: 6px 12px;
+    border-bottom: none;
+    border-radius: 5px;
+    color: #232323;
+    font-weight: 700;
+
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+}
+
+.toggle:hover {
+    border-bottom: none;
+    color: #232323;
+    background-color: #ffa065;
+    transform: translate(-2pt, -2pt) !important;
+    box-shadow: 2pt 2pt #88888882;
+}
+
+#container button {
+    border: none;
+}
+
+.examples:hover > .art {
+    opacity: 0.5;
+
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+}
+
+.examples:hover > .art:hover {
+    opacity: 1;
+
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+}
