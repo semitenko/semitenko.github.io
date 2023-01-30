@@ -56,9 +56,6 @@
 }
 
 .nav {
-    width: 18%;
-    float: left;
-    position: relative;
 }
 
 .nav ul {
@@ -97,8 +94,5 @@
 }
 
 .bio {
-    width: 82%;
     text-align: justify;
-    float: right;
-    position: relative;
 }
