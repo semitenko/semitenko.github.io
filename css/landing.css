@@ -1,7 +1,8 @@
 #header {
     background-color: #B0DEFF;
-    background-size: cover;
-    background-position: 5% 20%;
+    background-size: 80;
+    background-repeat: no-repeat;
+    background-position: 5% 25%;
     width: 100vw;
     height: 40vh;
 }
