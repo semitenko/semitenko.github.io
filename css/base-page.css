@@ -6,6 +6,7 @@ nav {
     font-weight: 700;
     position: fixed;
     border-top: 5px solid #FFD19A;
+    z-index: 999;
 }
 
 #name {
