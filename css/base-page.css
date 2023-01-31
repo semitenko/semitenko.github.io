@@ -4,7 +4,7 @@ nav {
     padding: 25px 50px;
     color: #232323;
     font-weight: 700;
-    position: absolute;
+    position: fixed;
     border-top: 5px solid #FFD19A;
 }
 
