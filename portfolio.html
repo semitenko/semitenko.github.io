@@ -29,14 +29,21 @@
         itemSelector: '.col',
         percentPosition: true
     });
+    setTimeout(function () {
+        msnry.layout();
+    }, 100);
 
-    var $images = $grid.querySelectorAll('.art img');
-    $images.forEach(function (el) {
-        el.addEventListener('load', function () {
-            console.log("Image is loaded: " + el.getAttribute("src"));
-            msnry.layout();
-        });
-    });
+    setTimeout(function () {
+        msnry.layout();
+    }, 300);
+
+    setTimeout(function () {
+        msnry.layout();
+    }, 1000);
+
+    setTimeout(function () {
+        msnry.layout();
+    }, 5000);
 </script>
 
 </head>
