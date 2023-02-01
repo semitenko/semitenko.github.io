@@ -57,11 +57,14 @@
 }
 
 .nav {
+    width: 25%;
 }
 
 .nav ul {
+    width: 100%;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 .nav li {
@@ -75,10 +78,6 @@
     -moz-transition: all 0.2s ease-in-out;
     -ms-transition: all 0.2s ease-in-out;
         transition: all 0.2s ease-in-out;
-}
-
-.nav li:last-child {
-    margin-bottom: 0px;
 }
 
 .nav li:hover {
@@ -95,5 +94,5 @@
 }
 
 .bio {
-    text-align: justify;
+    text-align: center;
 }
