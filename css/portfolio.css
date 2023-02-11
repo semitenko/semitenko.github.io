@@ -8,6 +8,30 @@ img {
     border-radius: 5px;
 }
 
+.accordion button {
+    background: #FFF8A6;
+    margin-bottom: 10px;
+    padding: 6px 12px;
+    border-bottom: none;
+    border-radius: 5px;
+    border: none;
+    color: #232323;
+    font-weight: 700;
+
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+}
+
+    .accordion button:hover {
+        border-bottom: none;
+        color: #232323;
+        background-color: #ffa065;
+        transform: translate(-2pt, -2pt) !important;
+        box-shadow: 2pt 2pt #88888882;
+    }
+
 .gallery:hover > .art {
     opacity: 0.5;
 
